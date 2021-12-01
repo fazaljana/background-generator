@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://source.unsplash.com/random?nature"
+      type="image/x-icon"
+    />
+    <title>GRADIENT GENERATOR</title>
+    <link rel="stylesheet" href="/dist/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-sans h-screen" id="body">
+    <div id="wrapper">
+      <header class="background-generator-header container py-10">
+        <h1 class="title">GRADIENT GENERATOR</h1>
+      </header>
+      <div id="color_picker" class="container color-picker">
+        <form action="" id="add_color" class="flex">
+          <input
+            type="number"
+            name="degree_1"
+            id="degree_1"
+            placeholder="0-360"
+          />
+          <input type="color" name="color_1" id="color_1" value="#2674D9" />
+
+          <input type="color" name="color_2" id="color_2" value="#ff0000" />
+        </form>
+        <h2>CURRENT CSS BACKGROUND:</h2>
+      </div>
+    </div>
+
+    <script defer src="/dist/js/app.js"></script>
+  </body>
+</html>
