@@ -1,2 +1,2 @@
-# background-generator
-A quick random generator project using vanilla JS.
+# gradient-generator
+A quick random gradient generator project using vanilla JS.
